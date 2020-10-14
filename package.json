@@ -4,7 +4,7 @@
   "description": "Package to check health of docker containers using fs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node build/test/index.spec.js",
     "build": "tsc",
     "check-health": "node build/checkHealth.js"
   },
