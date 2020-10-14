@@ -4,10 +4,10 @@
 
 ```javascript 
 import { HealthcheckServer } from 'node-healthchecker'
-const healcheckServer = new HealthcheckServer('/app/healthcheck.txt')
+const healthcheckServer = new HealthcheckServer('/app/healthcheck.txt')
 
 // Do something and call this method
-healcheckServer.ping()
+healthcheckServer.ping()
 
 ```
 
