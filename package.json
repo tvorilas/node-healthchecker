@@ -1,0 +1,27 @@
+{
+  "name": "healthchecker",
+  "version": "1.0.0",
+  "description": "Package to check health of docker containers using fs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "check-health": "node build/checkHealth.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tvorilas/node-healthchecker.git"
+  },
+  "author": "tvorilas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tvorilas/node-healthchecker/issues"
+  },
+  "homepage": "https://github.com/tvorilas/node-healthchecker#readme",
+  "devDependencies": {
+    "@types/node": "^14.11.8",
+    "eslint": "^7.11.0",
+    "japa": "^3.1.1",
+    "typescript": "^4.0.3"
+  }
+}

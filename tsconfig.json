@@ -1,0 +1,10 @@
+{
+  "include": ["**/*"],
+  "exclude": ["node_modules", "build", "synbox-contracts/libs"],
+  "compilerOptions": {
+    "outDir": "build",
+    "rootDir": "./",
+    "sourceMap": true,
+    "types": ["node"]
+  }
+}
