@@ -1,8 +1,8 @@
 {
-  "name": "healthchecker",
+  "name": "@tvorilas/node-healthchecker",
   "version": "1.0.1",
   "description": "Package to check health of docker containers using fs",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "test": "node build/test/index.spec.js",
     "build": "tsc",
@@ -17,6 +17,9 @@
   "bugs": {
     "url": "https://github.com/tvorilas/node-healthchecker/issues"
   },
+  "files": [
+    "build/*"
+  ],
   "homepage": "https://github.com/tvorilas/node-healthchecker#readme",
   "devDependencies": {
     "@types/node": "^14.11.8",
