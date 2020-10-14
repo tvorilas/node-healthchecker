@@ -20,7 +20,7 @@ healthcheckServer.ping()
 services:
   app:
     healthcheck:
-      test: ["CMD", "node", "run", "health-check", "--", "/app/healthcheck.txt", "120000"] # 2 minutes in ms
+      test: ["CMD", "node /app/node_modules/@tvorilas/node-healthchecker/build/checkHealth.js", "/app/healthcheck.txt", "120000"] # 2 minutes in ms
       interval: 5s
       timeout: 20s
       retries: 10
