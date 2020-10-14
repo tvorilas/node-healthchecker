@@ -1,6 +1,6 @@
 {
   "name": "healthchecker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package to check health of docker containers using fs",
   "main": "index.js",
   "scripts": {

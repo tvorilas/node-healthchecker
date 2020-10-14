@@ -1,9 +1,12 @@
 # Dependencies free library for docker container healthcheck using fs
+```bash
+npm i @tvorilas/node-healthchecker
+```
 
 ## Using on app side
 
 ```javascript 
-import { HealthcheckServer } from 'node-healthchecker'
+import { HealthcheckServer } from '@tvorilas/node-healthchecker'
 const healthcheckServer = new HealthcheckServer('/app/healthcheck.txt')
 
 // Do something and call this method
